@@ -1,0 +1,52 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="690.5px" height="350.5px">
+    <defs>
+        <style>
+            .cir1 {
+            animation: all reverse linear infinite 15s;
+            animation-name: stroke-offset;
+            }
+            .cir2 {
+            animation: all reverse linear infinite 20s forwards;
+            animation-name: stroke-offset;
+            }
+            .line1 {
+            animation: all reverse linear infinite 25s forwards;
+            animation-name: stroke-offset;
+            }
+            .line2 {
+            animation: all linear infinite 25s forwards;
+            animation-name: stroke-offset;
+            }
+            .line3 {
+            animation: all reverse linear infinite 25s forwards;
+            animation-name: stroke-offset;
+            }
+            @keyframes stroke-offset {
+            to {
+            stroke-dashoffset: 100%;
+            }
+            }
+        </style>
+    </defs>
+    <g style="opacity: 0.4">
+        <line class="line1" stroke-width="1" x1="50%" x2="50%" y1="131" y2="76%" stroke="#00aeef"
+              stroke-dasharray="4, 2" />
+        <path stroke="rgb(0, 174, 239)" stroke-width="1px" stroke-dasharray="4, 2"
+              fill="none" class="line2"
+              d="M41.500,266.500 L41.500,237.492 L344.500,141.500" />
+        <path stroke="rgb(0, 174, 239)" stroke-width="1px" stroke-dasharray="4, 2"
+              fill="none" class="line3"
+              d="M344.500,141.500 L648.175,237.492 L648.175,267.500 " />
+    </g>
+    <circle class="cir1" r="65" cx="50%" cy="65.5" fill="none" stroke="#fdc689"
+            stroke-dasharray="4, 2" />
+    <circle class="cir2" r="42" cx="50%" cy="308" fill="none" stroke="#00aeef"
+            stroke-dasharray="4, 2" />
+    <circle class="cir2" r="42" cx="42.5" cy="308" fill="none" stroke="#00aeef"
+            stroke-dasharray="4, 2" />
+    <circle class="cir2" r="42" cx="648" cy="308" fill="none" stroke="#00aeef"
+            stroke-dasharray="4, 2" />
+</svg>

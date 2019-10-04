@@ -1,0 +1,92 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="630.5px" height="163.5px">
+    <defs>
+        <linearGradient id="PSgrad_0" x1="0%" x2="100%" y1="0%" y2="0%">
+            <stop offset="0%" stop-color="rgb(228,42,25)" stop-opacity="1"/>
+            <stop offset="100%" stop-color="rgb(249,218,51)" stop-opacity="1"/>
+        </linearGradient>
+    </defs>
+    <path fill-rule="evenodd" stroke="rgb(0, 174, 239)" stroke-width="1px" stroke-linecap="butt"
+          stroke-linejoin="miter" opacity="0.302" fill="none"
+          d="M212.000,89.000 L212.000,124.000 L93.000,124.000 "/>
+    <path fill-rule="evenodd" stroke="rgb(0, 174, 239)" stroke-width="1px" stroke-linecap="butt"
+          stroke-linejoin="miter" opacity="0.502" fill="none"
+          d="M90.500,121.000 C91.881,121.000 93.000,122.119 93.000,123.500 C93.000,124.880 91.881,126.000 90.500,126.000 C89.119,126.000 88.000,124.880 88.000,123.500 C88.000,122.119 89.119,121.000 90.500,121.000 Z"/>
+    <path fill-rule="evenodd" stroke="rgb(0, 174, 239)" stroke-width="1px" stroke-linecap="butt"
+          stroke-linejoin="miter" opacity="0.502" fill="none"
+          d="M325.500,121.000 C326.881,121.000 328.000,122.119 328.000,123.500 C328.000,124.880 326.881,126.000 325.500,126.000 C324.119,126.000 323.000,124.880 323.000,123.500 C323.000,122.119 324.119,121.000 325.500,121.000 Z"/>
+    <path fill-rule="evenodd" stroke="rgb(0, 174, 239)" stroke-width="1px" stroke-linecap="butt"
+          stroke-linejoin="miter" opacity="0.502" fill="none"
+          d="M541.500,121.000 C542.881,121.000 544.000,122.119 544.000,123.500 C544.000,124.880 542.881,126.000 541.500,126.000 C540.119,126.000 539.000,124.880 539.000,123.500 C539.000,122.119 540.119,121.000 541.500,121.000 Z"/>
+    <path fill-rule="evenodd" stroke="rgb(0, 174, 239)" stroke-width="1px" stroke-linecap="butt"
+          stroke-linejoin="miter" opacity="0.502" fill="none"
+          d="M378.500,35.000 C379.881,35.000 381.000,36.119 381.000,37.500 C381.000,38.881 379.881,40.000 378.500,40.000 C377.119,40.000 376.000,38.881 376.000,37.500 C376.000,36.119 377.119,35.000 378.500,35.000 Z"/>
+    <path fill-rule="evenodd" stroke="rgb(0, 174, 239)" stroke-width="1px" stroke-linecap="butt"
+          stroke-linejoin="miter" opacity="0.302" fill="none"
+          d="M447.000,89.000 L447.000,124.000 L328.000,124.000 "/>
+    <path fill-rule="evenodd" stroke="rgb(0, 174, 239)" stroke-width="1px" stroke-linecap="butt"
+          stroke-linejoin="miter" opacity="0.302" fill="none"
+          d="M542.000,89.000 L542.000,121.000 "/>
+    <path fill-rule="evenodd" stroke="rgb(0, 174, 239)" stroke-width="1px" stroke-linecap="butt"
+          stroke-linejoin="miter" opacity="0.302" fill="none"
+          d="M500.000,74.000 L500.000,39.000 L381.000,39.000 "/>
+
+    <path fill-rule="evenodd" fill="rgb(0, 0, 0)"
+          d="M-0.000,76.000 L555.000,76.000 L555.000,87.000 L-0.000,87.000 L-0.000,76.000 Z"/>
+    <path fill="url(#PSgrad_0)"
+          d="M-0.000,76.000 L555.000,76.000 L555.000,87.000 L-0.000,87.000 L-0.000,76.000 Z"/>
+    <path fill-rule="evenodd" opacity="0.502" fill="rgb(0, 152, 223)"
+          d="M416.000,77.000 L471.500,77.000 L471.500,86.000 L416.000,86.000 L416.000,77.000 Z"/>
+    <path fill-rule="evenodd" opacity="0.502" fill="rgb(150, 0, 159)"
+          d="M472.000,77.000 L527.500,77.000 L527.500,86.000 L472.000,86.000 L472.000,77.000 Z"/>
+    <path fill-rule="evenodd" opacity="0.2" fill="rgb(0, 0, 0)"
+          d="M527.000,77.000 L554.000,77.000 L554.000,86.000 L527.000,86.000 L527.000,77.000 Z"/>
+    <path fill-rule="evenodd" opacity="0.2" fill="rgb(0, 0, 0)"
+          d="M1.000,77.000 L417.250,77.000 L417.250,86.000 L1.000,86.000 L1.000,77.000 Z"/>
+
+    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="24px" x="0px" y="38px">
+        <tspan dy="-19.8px">
+            <tspan font-size="24px" font-family="DIN" fill="#009CFF">Token Allocation</tspan>
+        </tspan>
+        <tspan x="0px" dy="20px">
+            <tspan font-size="14px" font-family="Didact Gothic" fill="#C28222">Original supply: 1,000,000,000 MLR</tspan>
+        </tspan>
+    </text>
+    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="18px" x="89px" y="163px">
+        <tspan dy="-19.8px">
+            <tspan font-size="18px" font-family="Didact Gothic" fill="#D5EFFF">75%</tspan>
+        </tspan>
+        <tspan x="89px" dy="15px">
+            <tspan font-size="14px" font-family="Didact Gothic" fill="#00A8FF">
+                Final Max. Supply
+            </tspan>
+        </tspan>
+    </text>
+
+    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="18px" x="324px" y="163px">
+        <tspan dy="-19.8px">
+            <tspan font-size="18px" font-family="Didact Gothic" fill="#D5EFFF">10%</tspan>
+        </tspan>
+        <tspan x="324px" dy="15px">
+            <tspan font-size="14px" font-family="Didact Gothic" fill="#00A8FF">MegaLTR treasury</tspan>
+        </tspan>
+    </text>
+    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="18px" x="377px" y="34px">
+        <tspan dy="-19.8px">
+            <tspan font-size="18px" font-family="Didact Gothic" fill="#D5EFFF">10%</tspan>
+        </tspan>
+        <tspan x="377px" dy="15px">
+            <tspan font-size="14px" font-family="Didact Gothic" fill="#00A8FF">MegaLTR Team</tspan>
+        </tspan>
+    </text>
+    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="18px" x="526px" y="163px">
+        <tspan dy="-19.8px">
+            <tspan font-size="18px" font-family="Didact Gothic" fill="#D5EFFF">05%</tspan>
+        </tspan>
+        <tspan x="526px" dy="15px">
+            <tspan font-size="14px" font-family="Didact Gothic" fill="#00A8FF">marketing bounty</tspan>
+        </tspan>
+    </text>
+</svg>
