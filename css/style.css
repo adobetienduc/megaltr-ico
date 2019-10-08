@@ -269,8 +269,7 @@ label {
 }
 
 .bg-nav-ontop .navbar-brand img {
-    max-height: 36px;
-    width: auto;
+    max-height: 42px;
 }
 
 .navbar-nav {
@@ -813,21 +812,21 @@ label {
 }
 
 .eco-lottery {
-    background-image: -moz-linear-gradient( 0deg, rgb(228,42,25) 0%, rgb(249,218,51) 100%);
-    background-image: -webkit-linear-gradient( 0deg, rgb(228,42,25) 0%, rgb(249,218,51) 100%);
-    background-image: -ms-linear-gradient( 0deg, rgb(228,42,25) 0%, rgb(249,218,51) 100%);
+    background-image: -moz-linear-gradient(0deg, rgb(228, 42, 25) 0%, rgb(249, 218, 51) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(228, 42, 25) 0%, rgb(249, 218, 51) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(228, 42, 25) 0%, rgb(249, 218, 51) 100%);
 }
 
 .eco-travel {
-    background-image: -moz-linear-gradient( 24deg, rgb(211,230,166) 0%, rgb(137,234,1) 100%);
-    background-image: -webkit-linear-gradient( 24deg, rgb(211,230,166) 0%, rgb(137,234,1) 100%);
-    background-image: -ms-linear-gradient( 24deg, rgb(211,230,166) 0%, rgb(137,234,1) 100%);
+    background-image: -moz-linear-gradient(24deg, rgb(211, 230, 166) 0%, rgb(137, 234, 1) 100%);
+    background-image: -webkit-linear-gradient(24deg, rgb(211, 230, 166) 0%, rgb(137, 234, 1) 100%);
+    background-image: -ms-linear-gradient(24deg, rgb(211, 230, 166) 0%, rgb(137, 234, 1) 100%);
 }
 
 .eco-education {
-    background-image: -moz-linear-gradient( 24deg, rgb(32,53,147) 0%, rgb(0,168,255) 100%);
-    background-image: -webkit-linear-gradient( 24deg, rgb(32,53,147) 0%, rgb(0,168,255) 100%);
-    background-image: -ms-linear-gradient( 24deg, rgb(32,53,147) 0%, rgb(0,168,255) 100%);
+    background-image: -moz-linear-gradient(24deg, rgb(32, 53, 147) 0%, rgb(0, 168, 255) 100%);
+    background-image: -webkit-linear-gradient(24deg, rgb(32, 53, 147) 0%, rgb(0, 168, 255) 100%);
+    background-image: -ms-linear-gradient(24deg, rgb(32, 53, 147) 0%, rgb(0, 168, 255) 100%);
 }
 
 
@@ -857,22 +856,27 @@ label {
 .news {
     background: none;
 }
+
 .news .ecosystem-wrap {
     padding-top: 0;
     margin-top: 0;
     max-width: unset;
 }
+
 .news .ecosystem-wrap h4 {
     font-size: 1.1rem;
     margin-top: 1em;
     line-height: 1.2;
 }
+
 .news .ecosystem-wrap h4 a {
     color: orange;
 }
+
 .news .ecosystem-wrap h4 a:hover {
     color: #1e7e34;
 }
+
 .news .ecosystem-thumb:after {
     margin-top: 56.25%;
 }
@@ -969,6 +973,7 @@ label {
         box-shadow: 0 0 0 20px rgba(43, 111, 177, 0);
     }
 }
+
 @-moz-keyframes ware {
     from {
         box-shadow: 0 0 0 0 #09f;
@@ -977,6 +982,7 @@ label {
         box-shadow: 0 0 0 20px rgba(43, 111, 177, 0);
     }
 }
+
 @keyframes ware {
     from {
         box-shadow: 0 0 0 0 #09f;
@@ -1160,15 +1166,19 @@ footer .footer .btn-buy-now {
 .social .social-telegram {
     background-position: 2px 0;
 }
+
 .social .social-youtube {
     background-position: -100px 0;
 }
+
 .social .social-twitter {
     background-position: -197px 0;
 }
+
 .social .social-facebook {
     background-position: -294px 0;
 }
+
 .social .social-medium {
     background-position: -391px 0;
 }
@@ -1197,33 +1207,41 @@ footer .footer .btn-buy-now {
         display: block;
         padding-top: 0;
     }
+
     .ecosystem-item {
         margin-bottom: 1em;
         display: flex;
     }
+
     .ecosystem-item > div {
         flex: 1;
         margin: 5px;
     }
+
     .ecosystem-item > div h3 {
         margin-top: 0;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .sec-1 .row .col-12:first-child {
         margin-bottom: 1em;
     }
+
     .ecosystem-wrap {
         display: block;
         padding-top: 0;
     }
+
     .ecosystem-item {
         margin-bottom: 1em;
         display: block;
     }
+
     .ecosystem-item > div {
         margin: 0;
     }
+
     .ecosystem-item > div h3 {
         margin-top: 10px;
     }
@@ -1233,15 +1251,18 @@ footer .footer .btn-buy-now {
         padding-left: 0;
         margin-right: 0;
     }
+
     .node-list:before {
         top: unset;
         width: 7px;
         height: calc(100% - 56px);
     }
+
     .node-list li {
         margin-left: 30px;
         display: block;
     }
+
     .node-list li .node-wrap {
         margin: 0;
         display: block;
@@ -1250,6 +1271,7 @@ footer .footer .btn-buy-now {
     .node-list li:nth-child(2n+1) .node-wrap {
         margin: 0;
     }
+
     .node-list li .node {
         top: 19px;
         left: -33px;
@@ -1261,7 +1283,24 @@ footer .footer .btn-buy-now {
         height: calc(100% + 5px);
         left: -27px;
     }
+
     .social li {
         padding: 1em 1px;
     }
+}
+
+.form-wrap {
+    background-color: #001334cc;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+.form-custom {
+    color: #999;
+}
+
+.form-custom .form-control {
+    background-color: #00486d55;
+    border-color: #00a8ff55;
+    color: #fff;
 }

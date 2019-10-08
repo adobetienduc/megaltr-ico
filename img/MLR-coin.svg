@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.56 129.97">
+    <defs>
+        <style>
+            .cls-1{fill:#1653a800;}.cls-2{fill:#e2131500;}.cls-3{fill:#fb30;}
+
+            #Layer_Mlr path {
+            animation: 8s ease-in-out 3;
+            stroke-width:1px;
+            }
+            #Layer_Mlr .cls-1 {
+            animation-name: dash1;
+            stroke:#1653a800;
+            fill:#1653a8;
+            }
+            @keyframes dash1 {
+            from {
+            stroke-dashoffset: 0;
+            stroke-dasharray: 10;
+            fill:#1653a800;
+            stroke:#1653a8;
+            }
+            70% {
+            stroke-dashoffset: 100;
+            stroke-dasharray: 400;
+            fill:#1653a800;
+            stroke:#1653a8;
+            }
+            to {
+            stroke-dashoffset: 100;
+            stroke-dasharray: 400;
+            fill:#1653a8;
+            stroke:#1653a800;
+            }
+            }
+            #Layer_Mlr .cls-2 {
+            animation-name: dash2;
+            stroke:#e2131500;
+            fill:#e21315;
+            }
+            @keyframes dash2 {
+            from {
+            stroke-dashoffset: 0;
+            stroke-dasharray: 10;
+            fill:#e2131500;
+            stroke:#e21315;
+            }
+            70% {
+            stroke-dashoffset: 100;
+            stroke-dasharray: 400;
+            fill:#e2131500;
+            stroke:#e21315;
+            }
+            to {
+            stroke-dashoffset: 100;
+            stroke-dasharray: 400;
+            fill:#e21315;
+            stroke:#e2131500;
+            }
+            }
+            #Layer_Mlr .cls-3 {
+            animation-name: dash3;
+            stroke:#fb30;
+            fill:#fb3;
+            }
+            @keyframes dash3 {
+            from {
+            stroke-dashoffset: 0;
+            stroke-dasharray: 10;
+            fill:#fb30;
+            stroke:#fb3;
+            }
+            70% {
+            stroke-dashoffset: 100;
+            stroke-dasharray: 400;
+            fill:#fb30;
+            stroke:#fb3;
+            }
+            to {
+            stroke-dashoffset: 100;
+            stroke-dasharray: 400;
+            fill:#fb3;
+            stroke:#fb30;
+            }
+            }
+        </style>
+    </defs>
+    <title>MLR coin</title>
+    <g id="Layer_Mlr" data-name="Layer Mlr">
+        <path class="cls-1" d="M112.56,32.49A65,65,0,0,1,56.28,65a65,65,0,0,1,0,65l56.28-32.49Z"/>
+        <path class="cls-2" d="M0,32.49A65,65,0,0,1,56.28,65a65,65,0,0,1,56.28-32.49h0L56.28,0Z"/>
+        <path class="cls-3" d="M0,32.49v65L56.28,130a65,65,0,0,1,0-65A65,65,0,0,1,0,32.49Z"/>
+    </g>
+</svg>

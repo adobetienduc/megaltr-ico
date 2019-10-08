@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <title>MegaLTR is a decentralized lottery service</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./asset/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-nav-customer">
+    <div class="container">
+        <a class="navbar-brand" href=""><img src="./img/MLR.svg" width="66px" alt="logo mlr"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#neo1">Token sale</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#neo2">Introducing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#neo3">How it works ?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#neo4">Ecosystem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#neo5">Roadmap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#neo6">Social media</a>
+                </li>
+            </ul>
+            <div class="form-inline mt-2 mt-md-0">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-outline-light dropdown-toggle" data-toggle="dropdown"
+                            data-display="static" aria-haspopup="true" aria-expanded="false">
+                        <span>EN</span><span class="lnr lnr-earth ml-2"></span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-lg-right">
+                        <a href="#en" class="dropdown-item">English</a>
+                        <a href="#vi" class="dropdown-item">Tiếng Việt</a>
+                    </div>
+                </div>
+                <a class="btn btn-outline-success my-2 my-sm-0 ml-2" href="#">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="section-main sec-1" id="neo1">
+    <div class="container">
+        <div class="section-head">
+            <h2>
+                <span>Buy MLR by exchange ETH in your Wallet</span>
+                <br><small>(You must deposit ETH to your wallet before buy MLR)</small></h2>
+        </div>
+        <div class="form-wrap form-custom">
+            <form id="Nevada" class="tabcontent ng-pristine ng-invalid ng-invalid-required" method="post" action="https://megaltr.com/tokensales/exchange/buymlr">
+
+                <input type="hidden" name="_token" value="">
+
+                <div class="panel panel-info">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="row">
+                                    <div class="form-group col-md-12 text-center">
+                                        <img style="height:180px" src="https://megaltr.com/api/getqraddress" title="Wallet Address">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <div class="input-group">
+                                            <label class="input-group-addon col-md-3" for="account_no">Wallet Address </label>
+                                            <input id="account_no" class="form-control col-md-9" type="text" name="account_no" value="0xA65c1FfC785B8278221Fdb0fa52aA5D68255e01a" readonly="">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <div class="input-group">
+                                            <label class="input-group-addon col-md-3" for="mlr_account_balance">MLR Balance </label>
+                                            <input id="mlr_account_balance" class="form-control col-md-9" type="text" name="mlr_account_balance" value="0.000" readonly="">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <div class="input-group">
+                                            <label class="input-group-addon col-md-3" for="eth_account_balance">ETH Balance </label>
+                                            <input id="eth_account_balance" class="form-control col-md-9" type="text" name="eth_account_balance" value="0.000000" readonly="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12">
+
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <label for="ethmlrrate">Currently Exchange Rate  of ETH/MLR</label>
+                                        <input type="hidden" name="ethmlrrate" value="256.41025641">
+                                        <div class="input-group">
+                                            <label class="input-group-addon" for="ethmlrrate">1 ETH = 256.41025641</label>
+                                            <label class="input-group-addon" for="ethmlrrate">MLR</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="eth_account_balance">Enter the number of  MLR to buy by exchange ETH in your Wallet. You can buy maximum 0 MLR</label>
+                                        <input id="mlr_buy" class="form-control ng-pristine ng-invalid ng-invalid-required ng-valid-number ng-valid-max ng-valid-min" type="number" min="1" max="-0.4512820512816" ng-model="mlr_more" name="mlr_buy" required="">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="eth_toexchange">Number of ETH need to exchange (include transaction fee: 0.00176ETH) </label>
+                                        <input id="eth_toexchange" class="form-control" type="text" name="eth_toexchange" value="out of range" readonly="">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="re_password">Confirm password </label>
+                                        <input id="re_password" class="form-control" type="password" name="password" required="">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="one_time_password">Your Google 2FA Code As Applicable </label>
+                                        <input id="one_time_password" class="form-control" type="text" name="one_time_password">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <button class="btn btn-success px-5" type="submit">Buy Now</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="copyright text-center">
+        <p>© Copyright 2019. | By LTR Tech</p>
+    </div>
+</footer>
+<div id="backTop" class="back-top is-hidden-sm-down">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+<script src="./js/jquery-3.1.0.js"></script>
+<script src="./asset/bootstrap/js/bootstrap.min.js"></script>
+<script src="./js/app.js"></script>
+
+</body>
+</html>
