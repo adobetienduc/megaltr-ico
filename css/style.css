@@ -273,7 +273,7 @@ label {
 }
 
 .navbar-nav {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .nav-link {
@@ -1129,6 +1129,92 @@ label {
     box-shadow: 0 5px 5px #0000004f;
 }
 
+.sec-7 {
+    /*background: radial-gradient(ellipse 59% 100% at 93% 20%,rgb(0,225,175),rgb(0,111,164) 90%);*/
+    background: url(../img/vector7.svg) center no-repeat;
+    background-size: 30%;
+}
+
+.bounty {
+    margin-bottom: 3em;
+}
+
+.bounty-item {
+    height: 100%;
+    border-radius: 3px;
+    padding: 2em;
+}
+
+.bounty-item1 {
+    background-color: #e010f321;
+    border: 1px solid #fff2;
+}
+
+.bounty-item2 {
+    background-color: #15ff0017;
+    border: 1px solid #fff2;
+}
+
+.bounty-item h4 {
+    background-image: -webkit-gradient(linear, left top, right top, from(#ff8a00), to(#e52e71));
+    background-image: linear-gradient(to right, #ff8a00, #e52e71);
+    padding: 5px 12px;
+    font-size: 21px;
+    color: #000;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, .3);
+}
+
+.bounty-item h5 {
+    color: #ff8a00;
+    font-size: 18px;
+}
+
+.bounty-item ul {
+    padding: 1em 0 2em;
+    text-align: justify;
+}
+
+.bounty-item ul {
+    padding-left: 1.2em;
+    list-style: initial;
+}
+
+.bounty-item p {
+    padding: 1em 0;
+    text-align: justify;
+}
+
+.bounty-item ul span {
+    font-weight: bold;
+    color: #08bf95;
+}
+
+.bounty-note {
+    align-items: flex-end;
+    display: flex;
+}
+
+.bounty-note > div {
+    border: 1px dashed #08bf95;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+.bounty-note > div p {
+    margin-bottom: 5px;
+}
+
+.campaign-ends {
+    padding-top: 1.6em;
+    color: #ffcc00;
+}
+
+.campaign-ends span {
+    color: #08bf95;
+}
+
+
 footer {
 }
 
@@ -1221,6 +1307,10 @@ footer .footer .btn-buy-now {
     .ecosystem-item > div h3 {
         margin-top: 0;
     }
+
+    .sec-7 {
+        background-size: 50%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1286,6 +1376,14 @@ footer .footer .btn-buy-now {
 
     .social li {
         padding: 1em 1px;
+    }
+
+    .btn-wpp {
+        display: block
+    }
+
+    .sec-7 {
+        background-size: 70%;
     }
 }
 
