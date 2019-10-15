@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    font-family: 'didact', sans-serif;
+    font-family: 'baomoi', sans-serif;
     font-size: 14px;
     line-height: 1.6;
     background-color: #001633;
@@ -238,15 +238,13 @@ label {
 /*==================**********=================*/
 /*=============================================*/
 
+@font-face{font-family:'baomoi';font-display: auto;src:url('fonts/Ecpay_gdi.eot');src:local('?'),url('fonts/Ecpay_gdi.woff') format('woff'),url('fonts/Ecpay_gdi.ttf') format('truetype');}
+@font-face{font-family:'baomoiBold';font-display: auto;src:url('fonts/Ecpay-SemiBold_gdi.eot');src:local('?'),url('fonts/Ecpay-SemiBold_gdi.woff') format('woff'),url('fonts/Ecpay-SemiBold_gdi.ttf') format('truetype');}
+@font-face{font-family:'AvenirNextBold';font-display: auto;src:url('fonts/AvenirNextBold.eot');src:local('?'),url('fonts/AvenirNextBold.woff') format('woff'),url('fonts/AvenirNextBold.ttf') format('truetype');}
 
 @font-face {
     font-family: 'DIN';
     src: url("fonts/DIN.woff") format("woff"), url("fonts/DIN.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: 'didact';
-    src: url("fonts/didact.woff") format("woff"), url("fonts/didact.woff2") format("woff2");
 }
 
 .navbar-brand img {
@@ -262,6 +260,10 @@ label {
 
 .bg-nav-customer {
     background-color: #00265420;
+}
+
+.bg-nav-customer .container-fluid {
+    max-width: 1400px;
 }
 
 .bg-nav-ontop {
@@ -454,7 +456,7 @@ label {
     display: block;
     font-size: 32px;
     color: #ff0;
-    font-family: 'DIN';
+    font-family: 'AvenirNextBold';
     text-shadow: 2px 3px 3px #0007;
     text-align: center;
     transition: all .4s;
@@ -484,6 +486,7 @@ label {
 }
 
 .section-head h2 span {
+    /*font-family: 'baomoiBold';*/
 }
 
 .section-head h2 small {
@@ -834,8 +837,8 @@ label {
     background-color: #4565;
     margin-top: 10px;
     border-radius: 3px;
-    font-family: 'DIN';
-    font-size: 32px;
+    font-family: 'AvenirNextBold';
+    font-size: 20px;
     text-transform: uppercase;
     padding: 2px 3px 5px;
     word-break: break-all;
@@ -1042,8 +1045,8 @@ label {
     white-space: nowrap;
     padding: 0 10px 2px;
     margin: 0;
-    font-family: 'DIN';
-    font-size: 24px;
+    font-family: 'AvenirNextBold';
+    font-size: 15px;
     text-transform: uppercase;
     background-size: 200%;
     background-position: left center;
