@@ -494,10 +494,14 @@ label {
     font-size: 24px;
 }
 
-.section-main:nth-child(2n+0) .section-head h2 * {
+.section-main:nth-child(2n+1) .section-head h2 * {
     background: radial-gradient(circle farthest-corner at right bottom, #f9da33 0%, #e42a19 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.section-head h5{
+    margin-top: 0.5em;
 }
 
 .paragraph {
@@ -967,6 +971,37 @@ label {
     -webkit-animation: ware ease-out infinite 1.2s;
 }
 
+.sec-6 {
+    background: #3737d0 url(./../img/plus-bck.svg) center top no-repeat;
+    background-size: 110%;
+}
+
+.token-sales {
+}
+
+.paragraph3 {
+    padding: 3em;
+}
+
+.paragraph3 h4 {
+    font-size: 20px;
+    color: orange;
+}
+
+.paragraph3 a {
+    color: #00a8ff;
+}
+
+.table-token {
+    color: #a4a4ff;
+    margin: 1em 0;
+}
+
+.table-token td,
+.table-token th {
+    background-color: rgba(0,0,0,.3);
+    border-color: rgba(55,55,208,0.8);
+}
 
 @-webkit-keyframes ware {
     from {
